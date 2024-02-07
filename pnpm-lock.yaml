@@ -20,6 +20,9 @@ dependencies:
   element-plus:
     specifier: ^2.3.8
     version: 2.3.8(vue@3.3.4)
+  highcharts:
+    specifier: ^11.1.0
+    version: 11.1.0
   picocolors:
     specifier: ^1.0.0
     version: 1.0.0
@@ -1367,6 +1370,10 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+    dev: false
+
+  /highcharts@11.1.0:
+    resolution: {integrity: sha512-vhmqq6/frteWMx0GKYWwEFL25g4OYc7+m+9KQJb/notXbNtIb8KVy+ijOF7XAFqF165cq0pdLIePAmyFY5ph3g==}
     dev: false
 
   /html-tags@3.3.1:
